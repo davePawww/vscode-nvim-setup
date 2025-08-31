@@ -1,0 +1,41 @@
+{
+  "workbench.activityBar.location": "hidden",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/var/folders/s0/tm4cljs173gg3x1z4fr7r5hw0000gn/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/s0/tm4cljs173gg3x1z4fr7r5hw0000gn/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/s0/tm4cljs173gg3x1z4fr7r5hw0000gn/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/s0/tm4cljs173gg3x1z4fr7r5hw0000gn/T/postman-folder-pre-request.instructions.md": true,
+    "/var/folders/s0/tm4cljs173gg3x1z4fr7r5hw0000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/s0/tm4cljs173gg3x1z4fr7r5hw0000gn/T/postman-http-request-pre-request.instructions.md": true
+  },
+  "workbench.iconTheme": "symbols",
+  "editor.guides.indentation": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.inlineSuggest.edits.allowCodeShifting": "never",
+  "editor.inlineSuggest.edits.renderSideBySide": "never",
+  "github.copilot.nextEditSuggestions.fixes": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "postman.mcp.notifications.postmanMCP": false,
+  "vscode-neovim.neovimInitVimPaths.darwin": "~/.config/nvim/init-vscode.lua",
+  "editor.lineNumbers": "relative",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Rosé Pine"
+}
