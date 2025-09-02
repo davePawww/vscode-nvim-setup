@@ -98,3 +98,12 @@ end, { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>q", function()
   pcall(vim.fn.VSCodeNotify, "workbench.action.closeActiveEditor")
 end, { noremap = true, silent = true })
+
+-- show error
+vim.o.updatetime = 300
+vim.api.nvim_create_autocmd("CursorHold", {
+  callback = function()
+    if vim.api.nvim_get_mode().mode ~= "n" then return end
+    pcall(vim.fn.VSCodeNotify, "editor.action.showHover")
+  end,
+})
